@@ -1,1 +1,0 @@
-fetch( `https://api.whatsapp.com/send?phone=11977998923&text=${$_POST['msg-submit']}`);

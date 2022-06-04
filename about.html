@@ -62,13 +62,19 @@
         <br><br><br><br>
     </div>
     <footer class="am-contact text-center">
-        <form action="API/send_mail.js" method="post">
-            <div class="row"><input type="text" name="message" id="msg-am"
-                    placeholder="Send an email message with your name and your message">
-                <button type="submit" id="msg-submit"><i class="bi bi-arrow-right-short"
-                        style="font-size: 30px;"></i></button>
-            </div>
-        </form>
+
+        <script>
+            function sendMessage() {
+                var message = document.getElementById("msg-am").value;
+                window.location = "https://api.whatsapp.com/send?phone=11977998923&message=" + message;
+            }
+        </script>
+
+        <div class="row">
+            <input type="text" name="message" id="msg-am"
+                placeholder="Send an email message with your name and your message">
+            <button id="msg-submit"><i class="bi bi-arrow-right-short" style="font-size: 30px;" onclick="sendMessage()"></i></button>
+        </div>
     </footer>
 </body>
 
