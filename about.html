@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <script src="js/waypoint.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <title>Henrique.css - About me</title>
+</head>
+
+<body>
+    <header class="am-header">
+        <h2><img src="img/perfil.png" alt="Henrique" width="64px" style="border-radius: 50%;"> Henrique Souza Oliveira
+        </h2>
+    </header>
+    <div class="container">
+        <br>
+        <br>
+        <br>
+        <div class="msg-me">
+            <h1>My name is Henrique,</h1>
+        </div>
+        <div class="msg-me">
+            <h2> I'm a Full-stack and I'm currently working as a
+                freelancer
+                but I'm
+                looking for new opportunities to work.</h2>
+        </div>
+        <div class="msg-you">
+            <h3>How old are you?</h3>
+        </div>
+        <div class="msg-me">
+            <h3>I'm 16</h3>
+        </div>
+        <div class="msg-you">
+            <h3>What programming languages did you know?</h3>
+        </div>
+        <div class="msg-me">
+            <h3>I know C#, C, CSS, JS, PHP, Assembly Language, Bash, Batch, PowerShell</h3>
+        </div>
+        <div class="msg-you">
+            <h3>Are you able to work outside of Brazil?</h3>
+        </div>
+        <div class="msg-me">
+            <h3>Of course</h3>
+        </div>
+        <div class="msg-you">
+            <h3>What the most popular project that you worked on?</h3>
+        </div>
+        <div class="msg-me">
+            <h3><a href="https://github.com/Eric-Mendes/unexpected-isaves/">Unexpected Isaves</a></h3>
+        </div>
+        <br><br><br><br>
+    </div>
+    <footer class="am-contact text-center">
+        <form action="API/send_mail.php" method="post">
+            <div class="row"><input type="text" name="message" id="msg-am"
+                    placeholder="Send an email message with your name and your message">
+                <button type="submit" id="msg-submit"><i class="bi bi-arrow-right-short"
+                        style="font-size: 30px;"></i></button>
+            </div>
+        </form>
+    </footer>
+</body>
+
+</html>

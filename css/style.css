@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#title {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.Dev-image {
+    width: 300px;
+    height: auto;
+    margin-top: 40px;
+}
+
+.card {
+    margin-top: 20px;
+}
+.title {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+}
+.msg-you {
+    text-align: right;
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 20px 0 20px 20px;
+}
+.msg-me {
+    text-align: left;
+    background-color: #9deccf;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+    border-radius: 20px 20px 20px 0;
+    width: fit-content;
+}
+.am-header{
+    background-color: #6ab9b9;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: -20px;
+    position: fixed;
+    border: 0;
+}
+.am-contact {
+    background-color: #6ab9b9;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: -20px;
+    position: fixed;
+    bottom: 0;
+}
+#msg-am {
+    width: 80%;
+    padding: 13px;
+    margin: 0 auto;
+    border-radius: 40px;
+    border: 0;
+    margin-bottom: 10px;
+}
+#msg-submit {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 40px;
+    border: 0;
+    background-color: #9deccf;
+}
+.skills{
+    height: 10px;
+    width: 10px;
+    border-radius: 20px;
+    background-color: #9deccf;
+}
+.skills[value="10"]{
+    height: 10px;
+    width: 10%;
+    border-radius: 20px;
+    background-color: #9deccf;
+}
+.skills[value="20"]{
+    height: 10px;
+    width: 20%;
+    border-radius: 20px;
+    background-color: #9deccf;
+}
+.skills[value="30"]{
+    height: 10px;
+    width: 30%;
+    border-radius: 20px;
+    background-color: #9deccf;
+}
+.skills[value="40"]{
+    height: 10px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: #9deccf;
+}
+.skills[value="50"]{
+    height: 10px;
+    width: 50%;
+    border-radius: 20px;
+    background-color: #9deccf;
+}
+.skills[value="60"]{
+    height: 10px;
+    width: 60%;
+    border-radius: 20px;
+    background-color: #9deccf;
+}
+.skills[value="70"]{
+    height: 10px;
+    width: 70%;
+    border-radius: 20px;
+    background-color: #9deccf;
+}
+.skills[value="80"]{
+    height: 10px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: #9deccf;
+}
+.skills[value="90"]{
+    height: 10px;
+    width: 90%;
+    border-radius: 20px;
+    background-color: #9deccf;
+}
+.skills[value="100"]{
+    height: 10px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #9deccf;
+}
+.skill-container{
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(224, 224, 224);
+}
