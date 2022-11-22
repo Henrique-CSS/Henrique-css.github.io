@@ -1,0 +1,23 @@
+{
+  "name": "henrique-css.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Henrique-CSS/Henrique-css.github.io.git"
+  },
+  "author": "HenriqueSO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Henrique-CSS/Henrique-css.github.io/issues"
+  },
+  "homepage": "https://github.com/Henrique-CSS/Henrique-css.github.io#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security"
+  }
+}
